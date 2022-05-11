@@ -1,0 +1,23 @@
+.btn-print {
+  width: 150px;
+  background-color: #ff7832;
+  color: #fff;
+  &:hover {
+    outline: 2px solid #ff7832;
+    color: #ff7832 !important;
+    background-color: #fff !important;
+  }
+  &-review {
+    width: 150px;
+    background-color: lightgray;
+  }
+}
+.btn-print-report-card {
+  background-color: #ff7832 !important;
+  color: #fff;
+  &:hover {
+    outline: 2px solid #ff7832;
+    color: #ff7832 !important;
+    background-color: #fff !important;
+  }
+}

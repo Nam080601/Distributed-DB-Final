@@ -186,8 +186,8 @@ const Home = () => {
     setUserData(user);
   });
   return (
-    <div className="d-flex h-100">
-      <div className="col-2 h-100 dashboard-bar">
+    <div className="d-flex h-100 hm-100">
+      <div className="col-2 dashboard-bar">
         <Dashboard user={userData} />
       </div>
       <div className="col-10 d-flex flex-column">

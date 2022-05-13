@@ -190,7 +190,7 @@ const Home = () => {
       <div className="col-2 dashboard-bar">
         <Dashboard user={userData} />
       </div>
-      <div className="col-10 d-flex flex-column">
+      <div className="col-10 d-flex flex-column ws">
         <Navbar user={userData} dispatch={dispatch} />
         <Workspace />
       </div>

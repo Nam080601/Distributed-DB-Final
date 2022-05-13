@@ -84,7 +84,7 @@ const Workspace = ({ faculty }) => {
       <div id="flash-alert" className="alert alert-success text-center">
         <span id="flash-content"></span>
       </div>
-      <div className="container d-flex flex-column px-5 ws">
+      <div className="container d-flex flex-column px-5">
         <div className="pt-5 pb-4 mx-auto">
           <h1>QUẢN LÝ ĐIỂM SINH VIÊN</h1>
         </div>
@@ -308,7 +308,7 @@ const Scores = () => {
       <div className="col-2 dashboard-bar">
         <Dashboard user={userData} />
       </div>
-      <div className="col-10 d-flex flex-column">
+      <div className="col-10 d-flex flex-column ws">
         <Navbar user={userData} dispatch={dispatch} />
         <Workspace faculty={userData?.khoa} />
       </div>

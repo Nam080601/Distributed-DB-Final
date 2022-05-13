@@ -194,7 +194,7 @@ const Workspace = ({ faculty }) => {
   }
   return (
     <FormContext.Provider value={{ data }}>
-      <div className="container px-5 ws">
+      <div className="container px-5">
         <div className="d-flex flex-column" id="data-print">
           <div className="pt-5 pb-4">
             <h1 className="text-center">{title}</h1>
@@ -322,7 +322,7 @@ const Print = () => {
       <div className="col-2 dashboard-bar">
         <Dashboard user={userData} />
       </div>
-      <div className="col-10 d-flex flex-column">
+      <div className="col-10 d-flex flex-column ws">
         <Navbar user={userData} dispatch={dispatch} />
         <Workspace faculty={userData?.khoa} />
       </div>
